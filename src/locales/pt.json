@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Início",
+    "projects": "Trajetória",
+    "about": "Sobre",
+    "contact": "Contato",
+    "resume": "Currículo"
+  },
+  "common": {
+    "language": "Idioma",
+    "english": "English",
+    "portuguese": "Português"
+  },
+  "home": {
+    "title": "Desenvolvedor Full-Stack com IA",
+    "subtitle": "Experiência em liderança, sistemas escaláveis e desenvolvimento moderno",
+    "cta": "Ver Currículo",
+    "hero_description": "Militar de carreira em transição para software, com foco em JavaScript, React, Node.js, TypeScript e entrega confiável."
+  },
+  "projects": {
+    "title": "Trajetória Profissional",
+    "subtitle": "Resumo da formação, experiência e foco técnico",
+    "view_project": "Live Demo",
+    "view_code": "GitHub Repository",
+    "tech_stack": "Foco"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "bio": "Militar de carreira e desenvolvedor Full Stack em transição para engenharia de software, com experiência em liderança, gestão e desenvolvimento moderno com JavaScript.",
+    "skills": "Habilidades",
+    "interests": "Informações Adicionais",
+    "description": "Objetivo de atuar como Desenvolvedor Full Stack, contribuindo com resiliência, disciplina técnica e foco em resultados em projetos desafiadores.",
+    "summary": "Resumo Profissional",
+    "objective": "Objetivo",
+    "education": "Formação Acadêmica",
+    "courses": "Cursos de Tecnologia",
+    "languages": "Idiomas"
+  },
+  "contact": {
+    "title": "Vamos Conversar",
+    "description": "Aberto a oportunidades como Desenvolvedor Full Stack, com foco em aplicações escaláveis, qualidade de código e colaboração.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "send": "Enviar",
+      "sending": "Abrindo e-mail...",
+      "success": "Seu app de e-mail foi aberto com a mensagem pronta.",
+      "error": "Algo deu errado. Tente novamente.",
+      "required": "Este campo é obrigatório"
+    },
+    "links": "Me encontre em"
+  },
+  "resume": {
+    "title": "Currículo",
+    "download": "Baixar PDF",
+    "experience": "Experiência",
+    "education": "Educação",
+    "skills": "Habilidades",
+    "courses": "Cursos",
+    "languages": "Idiomas",
+    "profile": "Perfil Profissional"
+  },
+  "footer": {
+    "built_with": "Construído com React, TypeScript e Vite",
+    "designed": "Conteúdo baseado no currículo e apoiado por IA"
+  }
+}

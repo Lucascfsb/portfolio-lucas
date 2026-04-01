@@ -1,0 +1,68 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Career",
+    "about": "About",
+    "contact": "Contact",
+    "resume": "Resume"
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "portuguese": "Português"
+  },
+  "home": {
+    "title": "Full-Stack Developer with AI",
+    "subtitle": "Leadership experience, scalable systems, and modern development",
+    "cta": "View Resume",
+    "hero_description": "Career military officer transitioning to software engineering, focused on JavaScript, React, Node.js, TypeScript, and reliable delivery."
+  },
+  "projects": {
+    "title": "Career Path",
+    "subtitle": "A summary of education, experience, and technical focus",
+    "view_project": "Live Demo",
+    "view_code": "GitHub Repository",
+    "tech_stack": "Focus"
+  },
+  "about": {
+    "title": "About Me",
+    "bio": "A career military officer and Full Stack Developer transitioning into software engineering, with experience in leadership, management, and modern JavaScript development.",
+    "skills": "Skills",
+    "interests": "Additional Info",
+    "description": "My objective is to work as a Full Stack Developer, bringing resilience, technical discipline, and a strong results focus to challenging projects.",
+    "summary": "Professional Summary",
+    "objective": "Objective",
+    "education": "Education",
+    "courses": "Technology Courses",
+    "languages": "Languages"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "description": "Open to Full Stack Developer opportunities, with a focus on scalable applications, code quality, and collaboration.",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send",
+      "sending": "Opening email app...",
+      "success": "Your email app was opened with the message ready.",
+      "error": "Something went wrong. Please try again.",
+      "required": "This field is required"
+    },
+    "links": "Find me on"
+  },
+  "resume": {
+    "title": "Resume",
+    "download": "Download PDF",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "courses": "Courses",
+    "languages": "Languages",
+    "profile": "Professional Profile"
+  },
+  "footer": {
+    "built_with": "Built with React, TypeScript, and Vite",
+    "designed": "Content based on the resume and assisted by AI"
+  }
+}
