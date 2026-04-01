@@ -54,7 +54,7 @@ export function Resume() {
           {experience.map((item) => (
             <div key={item.id} className={styles.timelineItem}>
               <div className={styles.timelineDate}>
-                {item.startYear} {item.endYear ? `- ${item.endYear}` : item.current ? '- Present' : ''}
+                {item.startYear} {item.endYear ? `- ${item.endYear}` : item.current ? '- Present | Atual' : ''}
               </div>
               <div className={styles.timelineContent}>
                 <h3>{isPortuguese ? item.titlePt : item.titleEn}</h3>

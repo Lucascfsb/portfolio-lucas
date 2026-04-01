@@ -150,7 +150,7 @@ export const experience: Experience[] = [
     id: 'exp-1',
     titleEn: 'Team Leader',
     titlePt: 'Líder de Equipe',
-    company: 'Brazilian Army',
+    company: 'Exército Brasileiro | Brazilian Army',
     startYear: 2015,
     current: true,
     descriptionEn: [
