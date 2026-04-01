@@ -6,7 +6,7 @@ import styles from './Resume.module.css';
 export function Resume() {
   const { t, i18n } = useTranslation();
   const isPortuguese = i18n.language === 'pt';
-  const pdfPath = isPortuguese ? '/src/assets/resume-pt.pdf' : '/src/assets/resume-en.pdf';
+  const pdfPath = isPortuguese ? 'resume-pt.pdf' : 'resume-en.pdf';
   const summary = isPortuguese ? profile.summaryPt : profile.summaryEn;
   const objective = isPortuguese ? profile.objectivePt : profile.objectiveEn;
 
