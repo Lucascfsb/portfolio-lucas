@@ -8,6 +8,12 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .about {
+    padding: var(--spacing-5);
+  }
+}
+
 .about h1 {
   text-align: center;
   margin-bottom: var(--spacing-12);
