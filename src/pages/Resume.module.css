@@ -2,6 +2,12 @@
   padding: var(--spacing-20) 0;
 }
 
+@media (max-width: 767px) {
+  .resume {
+    padding: var(--spacing-12) 0;
+  }
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -9,6 +15,17 @@
   margin-bottom: var(--spacing-16);
   flex-wrap: wrap;
   gap: var(--spacing-4);
+}
+
+@media (max-width: 767px) {
+  .header {
+    margin-bottom: var(--spacing-10);
+  }
+
+  .downloadBtn {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .header h1 {
@@ -64,6 +81,12 @@
   margin-bottom: var(--spacing-16);
 }
 
+@media (max-width: 767px) {
+  .section {
+    margin-bottom: var(--spacing-12);
+  }
+}
+
 .section h2 {
   margin-bottom: var(--spacing-8);
   background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
@@ -80,6 +103,12 @@
   box-shadow: 0 15px 40px rgba(0, 217, 255, 0.08);
 }
 
+@media (max-width: 767px) {
+  .profileCard {
+    padding: var(--spacing-6);
+  }
+}
+
 .profileCard p {
   color: var(--color-text-secondary);
   line-height: 1.8;
@@ -92,6 +121,19 @@
   gap: var(--spacing-3) var(--spacing-4);
   margin-bottom: var(--spacing-4);
   color: var(--color-text-secondary);
+}
+
+@media (max-width: 640px) {
+  .profileMeta {
+    flex-direction: column;
+    gap: var(--spacing-2);
+  }
+
+  .profileMeta a,
+  .profileMeta span {
+    width: 100%;
+    overflow-wrap: anywhere;
+  }
 }
 
 .profileMeta a,
@@ -161,6 +203,7 @@
   .timelineItem {
     grid-template-columns: 1fr;
     gap: var(--spacing-3);
+    padding-left: var(--spacing-5);
   }
 }
 
@@ -224,6 +267,17 @@
   margin-bottom: var(--spacing-3);
 }
 
+@media (max-width: 640px) {
+  .educationHeader {
+    flex-direction: column;
+    gap: var(--spacing-2);
+  }
+
+  .year {
+    white-space: normal;
+  }
+}
+
 .educationHeader h3 {
   margin: 0;
   color: var(--color-primary);
@@ -284,4 +338,11 @@
   color: var(--color-text-secondary);
   margin: 0;
   line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  .educationItem:hover,
+  .skillGroup:hover {
+    transform: translateY(-2px);
+  }
 }

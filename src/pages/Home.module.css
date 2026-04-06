@@ -47,6 +47,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .hero {
+    padding: var(--spacing-12) 0;
+  }
+}
+
 .hero::before {
   content: '';
   position: absolute;
@@ -115,6 +121,14 @@
   animation: fadeIn 1.4s ease-out;
 }
 
+@media (max-width: 767px) {
+  .description {
+    margin-inline: auto;
+    font-size: var(--text-base);
+    line-height: 1.7;
+  }
+}
+
 .cta {
   display: inline-block;
   padding: var(--spacing-4) var(--spacing-8);
@@ -130,6 +144,15 @@
   position: relative;
   animation: fadeIn 1.6s ease-out;
   overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .cta {
+    width: 100%;
+    text-align: center;
+    font-size: var(--text-base);
+    padding: var(--spacing-3) var(--spacing-6);
+  }
 }
 
 .cta::before {
@@ -160,6 +183,12 @@
 .featured {
   padding: var(--spacing-20) 0;
   position: relative;
+}
+
+@media (max-width: 767px) {
+  .featured {
+    padding: var(--spacing-12) 0;
+  }
 }
 
 .featured::before {
@@ -222,6 +251,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .card:hover {
+    transform: translateY(-3px);
+  }
+}
+
 .card::before {
   content: '';
   position: absolute;
@@ -280,6 +315,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 767px) {
+  .ctatSection {
+    padding: var(--spacing-12) 0;
+  }
+}
+
 .ctatSection::before {
   content: '';
   position: absolute;
@@ -318,6 +359,13 @@
   z-index: 1;
 }
 
+@media (max-width: 767px) {
+  .ctatSection p {
+    font-size: var(--text-base);
+    margin-bottom: var(--spacing-6);
+  }
+}
+
 .ctaButton {
   display: inline-block;
   padding: var(--spacing-4) var(--spacing-8);
@@ -332,6 +380,15 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .ctaButton {
+    width: 100%;
+    text-align: center;
+    font-size: var(--text-base);
+    padding: var(--spacing-3) var(--spacing-6);
+  }
 }
 
 .ctaButton::before {

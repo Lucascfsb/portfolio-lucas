@@ -2,6 +2,12 @@
   padding: var(--spacing-20) 0;
 }
 
+@media (max-width: 767px) {
+  .about {
+    padding: var(--spacing-12) 0;
+  }
+}
+
 .about h1 {
   text-align: center;
   margin-bottom: var(--spacing-12);
@@ -24,6 +30,13 @@
   backdrop-filter: blur(10px);
 }
 
+@media (max-width: 767px) {
+  .bio {
+    padding: var(--spacing-6);
+    margin-bottom: var(--spacing-10);
+  }
+}
+
 .bio p {
   font-size: var(--text-lg);
   line-height: 1.8;
@@ -33,6 +46,12 @@
 
 .section {
   margin-bottom: var(--spacing-16);
+}
+
+@media (max-width: 767px) {
+  .section {
+    margin-bottom: var(--spacing-12);
+  }
 }
 
 .section h2 {
@@ -63,6 +82,16 @@
   transition: all var(--transition-base);
   position: relative;
   overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .skillCategory {
+    padding: var(--spacing-5);
+  }
+
+  .skillCategory:hover {
+    transform: translateY(-3px);
+  }
 }
 
 .skillCategory::before {
@@ -129,6 +158,16 @@
   line-height: 1.8;
   margin: 0;
   padding-left: var(--spacing-6);
+}
+
+@media (max-width: 480px) {
+  .section ul {
+    padding-left: var(--spacing-5);
+  }
+
+  .section li {
+    overflow-wrap: anywhere;
+  }
 }
 
 .section li {
