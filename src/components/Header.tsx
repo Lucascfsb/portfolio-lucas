@@ -55,7 +55,7 @@ export function Header() {
         </nav>
 
         <button className={styles.langToggle} onClick={toggleLanguage}>
-          {i18n.language === 'en' ? 'PT' : 'EN'}
+          {i18n.language === 'en' ? 'EN' : 'PT'}
         </button>
       </div>
     </header>
