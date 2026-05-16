@@ -169,6 +169,19 @@ export const projects: Project[] = [
     liveUrl: "https://lucascfsb.github.io/quickList/",
     featured: true,
   },
+  {
+    id: "project-5",
+    titleEn: "number-generator",
+    titlePt: "gerador-de-numeros",
+    descriptionEn:
+      "A web application to generate random numbers within a custom range. It includes options to prevent duplicate results, interactive animations, and robust input validation.",
+    descriptionPt:
+      "Um aplicativo web para gerar números aleatórios dentro de um intervalo definido. Inclui opção para não repetir resultados, animações interativas e validações robustas de entrada.",
+    technologies: ["HTML5", "CSS3", "JavaScript"],
+    githubUrl: "https://github.com/Lucascfsb/number-generator",
+    liveUrl: "https://lucascfsb.github.io/number-generator/",
+    featured: true,
+  },
 ];
 
 export const experience: Experience[] = [
