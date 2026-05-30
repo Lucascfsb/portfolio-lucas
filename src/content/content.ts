@@ -182,6 +182,19 @@ export const projects: Project[] = [
     liveUrl: "https://lucascfsb.github.io/number-generator/",
     featured: true,
   },
+  {
+    id: "project-6", 
+    titleEn: "pet-scheduling",
+    titlePt: "agendamento-pet",
+    descriptionEn:
+      "A pet scheduling system built with pure JavaScript. It allows users to schedule services, view, and manage appointments within a responsive interface featuring modular code and interactive toast notifications.",
+    descriptionPt:
+      "Um sistema de agendamento para pets desenvolvido em JavaScript puro. Permite cadastrar, visualizar e gerenciar horários de serviços em uma interface responsiva, com código modularizado e notificações interativas.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Webpack"],
+    githubUrl: "https://github.com/Lucascfsb/pet-scheduling",
+    liveUrl: "https://pet-scheduling-six.vercel.app/",
+    featured: true, 
+  },
 ];
 
 export const experience: Experience[] = [

@@ -7,7 +7,7 @@ import styles from './Home.module.css';
 export function Home() {
   const { t, i18n } = useTranslation();
   const isPortuguese = i18n.language === 'pt';
-  const featuredProjects = projects.filter((project) => project.featured).slice(0, 3);
+  const featuredProjects = projects.filter((project) => project.featured).slice(0, 6);
   useSEO({
     title: t('nav.home'),
     description: t('home.hero_description'),
