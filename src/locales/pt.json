@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Início",
-    "projects": "Trajetória",
+    "projects": "Portfólio",
     "about": "Sobre",
     "contact": "Contato",
     "resume": "Currículo"
@@ -12,28 +12,28 @@
     "portuguese": "Português"
   },
   "home": {
-    "title": "Desenvolvedor Full-Stack com IA",
-    "subtitle": "Experiência em liderança, sistemas escaláveis e desenvolvimento moderno",
+    "title": "Desenvolvedor Full Stack | IA & Automação",
+    "subtitle": "IA Generativa, LLMs, MVPs e Sistemas Escaláveis",
     "cta": "Ver Currículo",
-    "hero_description": "Militar de carreira em transição para software, com foco em JavaScript, React, Node.js, TypeScript e entrega confiável."
+    "hero_description": "Especializado no ecossistema JavaScript/TypeScript (Node.js, React, Next.js). Integrando IA Generativa, LLMs e automação de processos em aplicações modernas. Expertise em APIs REST, Clean Code, SOLID e Docker. Entregando sistemas escaláveis com cobertura Jest e Prompt Engineering."
   },
   "projects": {
-    "title": "Trajetória Profissional",
-    "subtitle": "Resumo da formação, experiência e foco técnico",
-    "view_project": "Live Demo",
-    "view_code": "GitHub Repository",
-    "tech_stack": "Foco"
+    "title": "Portfólio",
+    "subtitle": "Projetos full-stack com IA Generativa, MVPs e stack moderno",
+    "view_project": "Demo ao Vivo",
+    "view_code": "Ver no GitHub",
+    "tech_stack": "Stack"
   },
   "about": {
     "title": "Sobre Mim",
-    "bio": "Militar de carreira e desenvolvedor Full Stack em transição para engenharia de software, com experiência em liderança, gestão e desenvolvimento moderno com JavaScript.",
+    "bio": "Desenvolvedor Full Stack com expertise em ecossistema JavaScript/TypeScript, especializando-se na integração de IA Generativa e LLMs em aplicações modernas. Experiência em validação de produtos (MVPs), automação de processos e entrega de sistemas escaláveis com disciplina técnica.",
     "skills": "Habilidades",
-    "interests": "Informações Adicionais",
-    "description": "Objetivo de atuar como Desenvolvedor Full Stack, contribuindo com resiliência, disciplina técnica e foco em resultados em projetos desafiadores.",
+    "interests": "Forças & Mentalidade",
+    "description": "Objetivo de entregar sistemas de produção escaláveis, alavancando tecnologias modernas e integração de IA. Focado em qualidade de código, design arquitetural e desenvolvimento colaborativo em times ágeis.",
     "summary": "Resumo Profissional",
     "objective": "Objetivo",
     "education": "Formação Acadêmica",
-    "courses": "Cursos de Tecnologia",
+    "courses": "Certificações & Cursos",
     "languages": "Idiomas"
   },
   "contact": {

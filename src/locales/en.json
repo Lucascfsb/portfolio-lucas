@@ -1,7 +1,7 @@
 {
   "nav": {
     "home": "Home",
-    "projects": "Career",
+    "projects": "Portfolio",
     "about": "About",
     "contact": "Contact",
     "resume": "Resume"
@@ -12,28 +12,28 @@
     "portuguese": "Português"
   },
   "home": {
-    "title": "Full-Stack Developer with AI",
-    "subtitle": "Leadership experience, scalable systems, and modern development",
+    "title": "Full Stack Developer | AI & Automation",
+    "subtitle": "Generative AI, LLMs, MVPs, and Scalable Systems",
     "cta": "View Resume",
-    "hero_description": "Career military officer transitioning to software engineering, focused on JavaScript, React, Node.js, TypeScript, and reliable delivery."
+    "hero_description": "Specialized in JavaScript/TypeScript ecosystem (Node.js, React, Next.js). Integrating Generative AI, LLMs, and process automation into modern applications. Expert in REST APIs, Clean Code, SOLID, and Docker. Delivering scalable systems with Jest coverage and Prompt Engineering."
   },
   "projects": {
-    "title": "Career Path",
-    "subtitle": "A summary of education, experience, and technical focus",
+    "title": "Portfolio",
+    "subtitle": "Full-stack projects featuring Generative AI, MVPs, and modern tech stack",
     "view_project": "Live Demo",
-    "view_code": "GitHub Repository",
-    "tech_stack": "Focus"
+    "view_code": "View on GitHub",
+    "tech_stack": "Stack"
   },
   "about": {
     "title": "About Me",
-    "bio": "A career military officer and Full Stack Developer transitioning into software engineering, with experience in leadership, management, and modern JavaScript development.",
+    "bio": "Full Stack Developer with deep expertise in the JavaScript/TypeScript ecosystem, specializing in integrating Generative AI and LLMs into modern applications. Experience in product validation (MVPs), process automation, and delivering scalable systems with technical discipline.",
     "skills": "Skills",
-    "interests": "Additional Info",
-    "description": "My objective is to work as a Full Stack Developer, bringing resilience, technical discipline, and a strong results focus to challenging projects.",
+    "interests": "Strengths & Mindset",
+    "description": "I aim to deliver scalable, production-ready systems leveraging modern technologies and AI integration. Focused on code quality, architectural design, and collaborative development within agile teams.",
     "summary": "Professional Summary",
     "objective": "Objective",
     "education": "Education",
-    "courses": "Technology Courses",
+    "courses": "Certifications & Courses",
     "languages": "Languages"
   },
   "contact": {
