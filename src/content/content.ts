@@ -108,25 +108,6 @@ export const profile: Profile = {
 export const projects: Project[] = [
   {
     id: "project-1",
-    titleEn: "Cart-Ai",
-    titlePt: "Cart-Ai",
-    descriptionEn:
-      "Smart grocery full-stack app with product search, cart management, and an AI assistant for contextual shopping suggestions.",
-    descriptionPt:
-      "Aplicação full stack de supermercado inteligente com busca de produtos, gestão de carrinho e assistente com IA para sugestões de compra contextualizadas.",
-    technologies: [
-      "Next.js",
-      "NestJS",
-      "PostgreSQL",
-      "TypeScript",
-      "OpenAI API",
-      "Google Gemini API",
-    ],
-    githubUrl: "https://github.com/Lucascfsb/cart-ai",
-    featured: true,
-  },
-  {
-    id: "project-2",
     titleEn: "Email AI Classifier",
     titlePt: "Classificador de Emails com IA",
     descriptionEn:
@@ -139,7 +120,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "project-3",
+    id: "project-2",
     titleEn: "ClipMaker",
     titlePt: "ClipMaker",
     descriptionEn:
@@ -157,7 +138,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "project-4",
+    id: "project-3",
     titleEn: "quickList",
     titlePt: "quickList",
     descriptionEn:
@@ -170,7 +151,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "project-5",
+    id: "project-4",
     titleEn: "number-generator",
     titlePt: "gerador-de-numeros",
     descriptionEn:
@@ -183,7 +164,7 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    id: "project-6",
+    id: "project-5",
     titleEn: "pet-scheduling",
     titlePt: "agendamento-pet",
     descriptionEn:
