@@ -176,6 +176,19 @@ export const projects: Project[] = [
     liveUrl: "https://pet-scheduling-six.vercel.app/",
     featured: true,
   },
+  {
+    id: "project-6",
+    titleEn: "guess",
+    titlePt: "adivinha-palavra",
+    descriptionEn:
+      "A word guessing game developed with React, TypeScript, and Vite. Features interactive gameplay where players guess hidden words from clues, letter history tracking, modular CSS styling, and ESLint integration.",
+    descriptionPt:
+      "Um jogo de adivinhação de palavras desenvolvido em React, TypeScript e Vite. Apresenta jogabilidade interativa com dicas, histórico de letras utilizadas, pontuação, estilização modular com CSS Modules e validação por ESLint.",
+    technologies: ["React", "TypeScript", "Vite", "CSS Modules", "ESLint"],
+    githubUrl: "https://github.com/Lucascfsb/guess",
+    liveUrl: "https://guess-nine-steel.vercel.app/",
+    featured: true,
+  },
 ];
 
 export const experience: Experience[] = [
