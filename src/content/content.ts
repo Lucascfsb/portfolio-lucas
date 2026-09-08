@@ -189,6 +189,31 @@ export const projects: Project[] = [
     liveUrl: "https://guess-nine-steel.vercel.app/",
     featured: true,
   },
+  {
+    id: "project-7",
+    titleEn: "Refund - Expense & Receipt Management",
+    titlePt: "Refund - Gestão de Despesas e Reembolsos",
+    descriptionEn:
+      "Full-stack web application for expense reimbursement and receipt management. Features JWT authentication, automated file uploads with Multer, Prisma ORM 7 with SQLite, React 19, Tailwind CSS 4, and complete cloud deployment on Render (API) and Vercel (Frontend).",
+    descriptionPt:
+      "Aplicação web full stack para gerenciamento de reembolsos e comprovantes de despesas. Possui autenticação JWT, upload de arquivos com Multer, Prisma ORM 7 com SQLite, React 19, Tailwind CSS 4 e deploy completo em nuvem no Render (API) e Vercel (Frontend).",
+    technologies: [
+      "Node.js",
+      "Express 5",
+      "TypeScript",
+      "React 19",
+      "Prisma ORM",
+      "SQLite",
+      "Tailwind CSS",
+      "JWT",
+      "Zod",
+      "Multer",
+      "Vite",
+    ],
+    githubUrl: "https://github.com/Lucascfsb/refund-front",
+    liveUrl: "https://refund-front-theta.vercel.app/",
+    featured: true,
+  },
 ];
 
 export const experience: Experience[] = [
